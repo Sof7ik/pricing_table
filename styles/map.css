@@ -1,0 +1,96 @@
+section.map
+{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url('../img/map.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+
+    position: relative;
+
+    padding: 100px 0px;
+}
+
+section.map::before
+{
+    content: '';
+    background-image: linear-gradient(to right, #7f66e2, #88c2d0);
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+span.map-subtitle, h1.map-title, .map button
+{
+    position: relative;
+}
+
+span.map-subtitle
+{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 12px;
+    display: inline-block;
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 2.286;
+    width: 100%;
+    text-align: center;
+}
+
+h1.map-title
+{
+    font-weight: 500;
+    margin-top: 15px;
+    line-height: 0.837;
+    text-align: center;
+}
+
+.map-btns
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.map-btns button.button-get-started
+{
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+button.button-explore-features
+{
+    border: 1px solid rgb(215, 219, 232);
+    background-color: #fff;
+    box-shadow: 0px 0px 18.69px 2.31px rgba(204, 204, 223, 0.5);
+
+    margin-left: 30px;
+    border-radius: 2rem;
+    color: #c2c9db;
+
+    padding: 15px 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+
+    transition: all .3s;
+    outline: none;
+}
+
+button.button-explore-features:hover
+{
+    background-color: #6e45e2;
+    border: 1px solid #6e45e2;
+    transform: scale(1.05);
+    color: #fff;
+}

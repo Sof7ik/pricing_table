@@ -1,0 +1,157 @@
+@media all and (max-width: 1080px)
+{
+    header div.up-header
+    {
+        justify-content: center;
+    }
+
+    div.logo
+    {
+        margin-bottom: 15px;
+    }
+}
+
+@media all and (max-width: 1356px)
+{
+    section.plans div.plans
+    {
+        flex-flow: column nowrap;
+        
+    }
+    div.plans div.plan
+    {
+        max-width: unset;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    section.plans div.plans div.plan:nth-child(2)
+    {
+        margin: 0px;
+        margin-bottom: 15px;
+    }
+}
+
+@media all and (max-width: 979px)
+{
+    footer div.footer-up
+    {
+        justify-content: center;
+    }
+}
+
+@media all and (max-width: 748px)
+{
+    header div.navigate 
+    {
+        justify-content: center;
+    }
+    header div.navigate button
+    {
+        margin-left: 0px;
+    } 
+}
+
+@media all and (max-width: 715px)
+{
+    footer div.navigate
+    {
+        justify-content: center;
+    }
+
+    .navigate button.header, header div.navigate button
+    {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+}
+
+@media all and (max-width: 713px)
+{
+    .navigate button.button-get-started-footer
+    {
+        margin-left: 0px;
+        
+    }
+}
+
+@media all and (max-width: 683px)
+{
+    footer div.navigate
+    {
+        margin-top: 15px;
+    }
+
+    .navigate button.button-get-started-footer
+    {
+        margin-top: 20px;  
+    }
+}
+
+@media all and (max-width: 662px)
+{
+    footer div.footer-down
+    {
+        justify-content: center;
+        text-align: center;
+    }
+
+    ul {
+        margin-top: 10px;
+    };
+}
+
+@media all and (max-width: 527px)
+{
+    header a.nav-button
+    {
+        margin-bottom: 15px;
+    }
+}
+
+@media all and (max-width: 514px)
+{
+    footer a.nav-button
+    {
+        margin-bottom: 15px;
+    }
+}
+
+@media all and (max-width: 457px)
+{
+    div.map-btns button:first-child
+    {
+        margin-bottom: 10px;
+    }
+
+    div.map-btns button:last-child
+    {
+        margin-left: 0px;
+    }
+
+    .map div.map-btns
+    {
+        flex-flow: column nowrap;
+    }
+}
+
+@media all and (max-width: 396px)
+{
+    header h1.title
+    {
+        font-size: 48px;
+    }
+}
+
+@media all and (max-width: 332px)
+{
+    header h1.company-name, footer h1.company-name
+    {
+        font-size: 30px;
+    }
+
+    header a.nav-button
+    {
+        margin-bottom: 15px;
+    }
+}

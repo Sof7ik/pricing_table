@@ -1,0 +1,100 @@
+footer
+{
+    padding: 30px 20px 0 20px;
+}
+
+footer h1.company-name
+{
+    font-size: 30px;
+    color: rgb(55, 55, 74);
+    line-height: 0.967;
+}
+
+div.footer-up
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-bottom: 20px;
+    border-bottom: 1px solid #f2f2f3;
+}
+
+footer nav a.nav-button
+{
+    font-size: 16px;
+    
+    color: #6a6a77;
+    line-height: 1.188;
+}
+
+footer nav a.nav-button:hover
+{
+    color: rgb(117, 110, 220);
+}
+
+.button-get-started-footer
+{
+    margin-left: 30px;
+    border-radius: 2rem;
+    color: #fff;
+
+    padding: 15px 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+
+    transition: all .3s;
+    outline: none;
+    background-color: #6e45e2;
+    border: 1px solid #6e45e2;
+}
+
+.button-get-started-footer:hover
+{
+    box-shadow: 0px 0px 40px 4px rgba(204, 204, 223, 0.5);
+    transform: scale(1.02);
+}
+
+div.footer-down
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.footer-down p
+{
+    color: #b4b4bb;
+}
+
+ul
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li
+{
+    margin-right: 10px;
+}
+
+ul li:last-child
+{
+    margin-right: 0px;
+}
+
+ul a 
+{
+    display: block;
+}
+
+img.social-link-img
+{
+    width: 35px;
+    display: block;
+}

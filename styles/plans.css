@@ -1,0 +1,165 @@
+section.plans .container
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 120px;
+}
+
+div.plans-description
+{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 110px 0px;
+}
+
+span.section-subSubTitle
+{
+    color: #9fa4af;
+    text-transform: uppercase;
+    font-size: 13px;
+
+    margin-bottom:26px;
+}
+
+span.section-subSubTitle::before, span.section-subSubTitle::after
+{
+    content: '';
+    display: inline-block;
+    height: 1px;
+    width: 24px;
+    background-color: #6e45e2;
+    vertical-align: middle; 
+}
+
+span.section-subSubTitle::before
+{
+    margin-right: 19px;
+}
+
+span.section-subSubTitle::after
+{
+    margin-left: 19px;
+}
+
+
+h1.section-title
+{
+    text-align: center;
+    color: rgb(79, 79, 111); 
+    line-height: 1.2;
+    text-align: center;
+    -moz-transform: matrix( 1.42422241571191,0,0,1.42422241571191,0,0);
+    -webkit-transform: matrix( 1.42422241571191,0,0,1.42422241571191,0,0);
+    -ms-transform: matrix( 1.42422241571191,0,0,1.42422241571191,0,0);
+    margin-bottom: 39px;
+}
+
+p.section-subtitle
+{
+    color: #9fa4af;
+    max-width: 300px;
+
+    text-align: center;
+}
+
+div.plans
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+div.plan
+{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid rgb(215, 219, 232);
+    border-radius: 30px;
+    max-width: 400px;
+    padding: 66px 0px;
+    background-color: #fff;
+    transition: all 1.5s;
+    padding: 30px;
+}
+
+div.plans div.plan:nth-child(2)
+{
+    margin: 0 10px;
+    
+}
+
+div.plan:hover
+{
+    box-shadow: 0px 0px 81.88px 10.12px rgba(204, 204, 223, 0.71);
+    transform: scale(1.03);
+}
+
+span.plan-type
+{
+    font-size: 14px;
+    color: rgb(159, 164, 175);
+    text-transform: uppercase;
+    line-height: 2.286;
+    text-align: center;
+    font-weight: bold;
+}
+
+p.price
+{
+    position: relative;
+}
+
+span.value
+{
+    font-size: 13px;
+    position: absolute;
+    left: -10px;
+    top: 10px;
+}
+
+span.number
+{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+span.date
+{
+    font-weight: 500;
+}
+
+p.price span, p.price sup
+{
+    color: #4f4f6f;
+}
+
+p.plan-description
+{
+    text-align: center;
+    font-size: 16px;
+    color: rgb(159, 164, 175);
+    line-height: 1.75;
+    margin: 45px 0 55px 0;
+}
+
+div.plan button
+{
+    border: 1px solid rgb(215, 219, 232);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 18.69px 2.31px rgba(204, 204, 223, 0.5);
+    margin-left: 0px;
+    color: #c2c9db;
+}
+
+div.plan button:hover
+{
+    color: #fff;
+}
