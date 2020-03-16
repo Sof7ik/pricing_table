@@ -34,7 +34,7 @@ footer nav a.nav-button:hover
     color: rgb(117, 110, 220);
 }
 
-.button-get-started-footer
+button.footer
 {
     margin-left: 30px;
     border-radius: 2rem;

@@ -1,16 +1,3 @@
-@media all and (max-width: 1080px)
-{
-    header div.up-header
-    {
-        justify-content: center;
-    }
-
-    div.logo
-    {
-        margin-bottom: 15px;
-    }
-}
-
 @media all and (max-width: 1356px)
 {
     section.plans div.plans
@@ -28,6 +15,20 @@
     section.plans div.plans div.plan:nth-child(2)
     {
         margin: 0px;
+        margin-bottom: 15px;
+    }
+}
+
+
+@media all and (max-width: 1080px)
+{
+    header div.up-header
+    {
+        justify-content: center;
+    }
+
+    div.logo
+    {
         margin-bottom: 15px;
     }
 }

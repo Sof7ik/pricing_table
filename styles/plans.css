@@ -53,9 +53,6 @@ h1.section-title
     color: rgb(79, 79, 111); 
     line-height: 1.2;
     text-align: center;
-    -moz-transform: matrix( 1.42422241571191,0,0,1.42422241571191,0,0);
-    -webkit-transform: matrix( 1.42422241571191,0,0,1.42422241571191,0,0);
-    -ms-transform: matrix( 1.42422241571191,0,0,1.42422241571191,0,0);
     margin-bottom: 39px;
 }
 
@@ -84,10 +81,11 @@ div.plan
     border: 1px solid rgb(215, 219, 232);
     border-radius: 30px;
     max-width: 400px;
-    padding: 66px 0px;
     background-color: #fff;
-    transition: all 1.5s;
+    transition: all 0.3s;
     padding: 30px;
+
+    min-height: 555px;
 }
 
 div.plans div.plan:nth-child(2)
