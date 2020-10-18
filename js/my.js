@@ -1,7 +1,5 @@
 const bodyElement = document.body;
-let name, tel;
-
-
+// let name, tel;
 
 const closeModal = () => {
     if(document.querySelector('div.modal'))
@@ -23,61 +21,37 @@ document.body.addEventListener('click', (event) => {
     }
 })
 
-const sendFeedback = (event) => {
-    event.preventDefault();
+// const sendFeedback = (event) => {
+//     event.preventDefault();
     
-    name = document.getElementById('name').value;
-    console.log('name: ', name);
-    tel = document.getElementById('tel').value;
-    console.log('tel: ', tel);
+//     name = document.getElementById('name').value;
+//     console.log('name: ', name);
+//     tel = document.getElementById('tel').value;
+//     console.log('tel: ', tel);
 
-    if(name.trim() !== '' & tel.trim() !== ''){
-        let formData = new FormData();
-        formData.append('name', name);
-        formData.append('tel', tel);
+//     if(name.trim() !== '' & tel.trim() !== ''){
+//         let formData = new FormData();
+//         formData.append('name', name);
+//         formData.append('tel', tel);
 
-        fetch('../phpScripts/send.php', 
-        {
-            method: 'POST',
-            body: `name=${name}&tel=${tel}`
-        })
-        .then((res) =>
-        {
-            return res.text();
-        })
-        .then((res) =>
-        {
-            console.log(res);
-        });
-    }
-    else {
-        console.log('Поля заполни дебил!');
-    }
-    // const req = new XMLHttpRequest();
-    // const url = '../phpScripts/send.php';
-    // const params = `name=${name}&tel=${tel}`;
-    // req.open(POST, url, true);
-
-    // req.addEventListener('readystatechange', () => {
-    //     if (req.readyState === 200)
-    //     {
-    //         console.log(200);
-    //     }
-
-    //     if (req.readyState === 300)
-    //     {
-    //         console.log(300);
-    //     }
-
-    //     if (req.readyState === 400)
-    //     {
-    //         console.log(400);
-    //         console.log('Запрос отправлен');
-    //     }
-    // })
-
-    // req.send(params);
-}
+//         fetch('../phpScripts/send.php', 
+//         {
+//             method: 'POST',
+//             body: `name=${name}&tel=${tel}`
+//         })
+//         .then((res) =>
+//         {
+//             return res.text();
+//         })
+//         .then((res) =>
+//         {
+//             console.log(res);
+//         });
+//     }
+//     else {
+//         console.log('Поля заполни дебил!');
+//     }
+// }
 
 const createModal = () => {
     const modal = document.createElement('div');
@@ -85,7 +59,7 @@ const createModal = () => {
     modal.innerHTML = `<div class="innerModal">
         <h1 class="modalTitle">Callback feedback</h1>
         <span class="modalDesc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi corporis quo, fuga reprehenderit quisquam asperiores recusandae ducimus dicta vel praesentium veritatis magni placeat eligendi provident consequatur iste. Enim, quo rem?</span>
-        <form action="" method="POST">
+        <form action="/" method="POST">
             <input type="text" name="name" id="name" placeholder="Enter your name here">
             <input type="tel" name="tel" id="tel" placeholder="Enter your tel number here">
 
